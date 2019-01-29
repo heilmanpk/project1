@@ -1,0 +1,322 @@
+body {
+			font-family: 'Raleway', sans-serif;
+			overflow: auto;
+		}
+		p {
+			text-decoration: none;
+
+		}
+		.navbar {
+  			  background-color: #6aaf08;
+   			  border-top-left-radius: 15px;
+  		      border-top-right-radius: 15px;
+ 		      padding-bottom: 8px;
+  		      overflow: auto;
+		}
+		.navbar a {
+  			  float: left;
+  			  text-align: center;
+  			  padding: 12px;
+  			  color: white;
+  			  text-decoration: none;
+  			  font-size: 19px;
+  			  border-bottom-color
+			  margin-top: 8px;
+			  margin-left: 5px;
+
+
+		}
+
+
+		#header {
+			  width: 90%;
+			  margin-left: 90px;
+  		   
+		}
+		#container{
+			  background: #432;
+		}
+		.logo{
+			
+		}
+		.containerone {
+			    background-image: url(/css/images/backgroundprovizoriu.png);
+			    padding-bottom: 260px;
+}
+		}
+		h1 {
+   			 font-size: 56px;
+		}
+
+		h2.lead {
+   				 font-size: 30px;
+		}
+		.button {
+  			background-color: #4CAF50;
+  			border: none;
+  			color: white;
+ 			 padding: 15px 50px;
+				  text-align: center;
+			  text-decoration: none;
+			  display: inline-block;
+			 font-size: 16px;
+ 			 margin: 4px 2px;
+ 			 cursor: pointer;
+ 			 border-radius: 31px;
+		}
+		.button a {
+  			  text-align: center;
+  			  color: white;
+  			  text-decoration: none;
+  			  border-bottom-color
+
+		}
+		.readmore {
+			background-color: #4CAF50;
+			border: none;
+			color: white;
+			padding: 15px 50px;
+			text-align: center;
+			margin-top: -20px;
+			font-size: 16px;
+			border-radius:31px;
+		}
+
+		.domainsearch{
+			background-color: #303030;
+		}
+
+		.left-corner p {
+    margin: -20px;
+    color: #fff;
+    font-size: 34px;
+    background-color: #4caf50;
+    line-height: 34px;
+      padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    margin-right: 115px;
+}
+	.left-corner p span {
+		display:block;
+		font-size: 18px;
+		line-height: 22px;
+
+	}
+	.containerprincipal {
+		width: 90%;
+		margin-left: 90px;
+	}
+
+.reset-gutter {
+	margin-bottom: 11px;
+}
+.reset-gutter > [class*='col-'] {
+    padding-left: 0;
+    padding-right: 0;
+}
+#domainSearchForm input[type="text"].form-control {
+    font-size: 18px;
+    height: 39px;
+    padding: 5px 15px;
+    border-radius: 0;
+}
+#domainSearchForm .select-box {
+    position: relative;
+    background-color: #fff;
+    z-index: 0;
+}
+#domainSearchForm select.form-control {
+    font-size: 18px;
+    height: 55px;
+    padding: 5px 15px;
+    background-color: transparent;
+    border-left: 1px solid #e9e9e9;
+    border-radius: 0;
+    box-shadow: none;
+    line-height: 51px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+#domainSearchForm select.form-control option {
+    border-right: 2px solid #999;
+}
+#domainSearchForm button[type="submit"] {
+    background-color: #6aaf08;
+    border: 0;
+    margin-bottom: 18px;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    height: 53px;
+    padding: 8px 6px 6px;
+    text-transform: uppercase;
+    -webkit-transition: background-color .25s;
+    transition: background-color .25s;
+    z-index: 0;
+}
+.right-corner .extension {
+    display: block;
+    color: #fff;
+    font-weight: 500;
+    border-right: 1px dotted #999;
+    border-right-width: 2px;
+    padding-right: 20px;
+    padding-left: 15px;
+}
+.right-corner .extension span.name {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+    padding-top: 4px;
+    padding-bottom: 0;
+}
+.right-corner .extension span {
+    display: block;
+    padding-bottom: 5px;
+}
+.right-corner .domain-ext > div {
+    padding: 0 10px;
+}
+#titlu h2 {
+    position: relative;
+    margin-top: -5px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+#titlu h2:before {
+    content: " ";
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    width: 50px;
+    height: 2px;
+    background-color: #6aaf08;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.column {
+  float: left;
+  width: 31%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+.flink {
+  width: 90%;
+  margin-left: 28%;
+}
+.fcolumn {
+    float: left;
+    width: 15%;
+    padding: 15px;
+    color: white;
+}
+.footer {
+  padding-bottom: 6%;
+    background-color: #303030;
+}
+.copyright {
+  padding: 20px  18px;
+  color: white;
+  background-color: #222;
+
+}
+.copyright p.left {
+}
+.copyright p {
+  margin-bottom: 0;
+}
+
+
+input[type=text], input[type=password] {
+  width: 98%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+input[type=text1], input[type=password] {
+    width: 37%;
+    padding-top: 21px;
+    padding-bottom: 17px;
+    margin-top: 13px;
+    margin-left: 30px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
